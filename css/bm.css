@@ -23,15 +23,15 @@
 }
 
 ::-moz-selection {
-  background: rgba(241, 118, 53, 0.5);
+  background: rgba(180, 180, 180, 0.2);
 }
 
 ::selection {
-  background: rgba(241, 118, 53, 0.5);
+  background: rgba(180, 180, 180, 0.2);
 }
 
 ::-moz-selection {
-  background: rgba(241, 118, 53, 0.5);
+  background: rgba(180, 180, 180, 0.2);
 }
 
 *, body, div, dl, dt, dd, ul, ol, li,
