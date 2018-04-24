@@ -258,4 +258,6 @@ p.banner--trail {
   border: 0;
   outline: 0;
   background-color: #fff;
+  display: block;
+  cursor: pointer;
 }
