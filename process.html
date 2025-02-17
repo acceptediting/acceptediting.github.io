@@ -16,6 +16,16 @@
     <script src="js/nav.js" type="text/javascript"></script>
     <script src="js/goTop.js" type="text/javascript"></script>
     <script src="js/global.js" type="text/javascript"></script>
+    <!-- Event snippet for 文件上傳 conversion page -->
+    <script>
+        window.addEventListener('load', function (event) {
+            document.querySelectorAll('a[href="https://script.google.com/macros/s/AKfycbyEleAHjXxolYFc9XPK-05mu1etjjoZJyAY2j41uoZgR2YW6R6JQ1cEzbq23xeZEINg/exec"]').forEach(function (e) {
+                e.addEventListener('click', function () {
+                    gtag('event', 'conversion', {'send_to': 'AW-1014695725/ve91CJC4_J4aEK2O7OMD'});
+                });
+            });
+        });
+    </script>
     <!-- Google tag (gtag.js) --> 
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1014695725"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1014695725'); </script> 
     <!-- Event snippet for 網頁瀏覽 conversion page --> 
